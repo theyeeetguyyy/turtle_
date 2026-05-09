@@ -1,0 +1,56 @@
+{
+  "client_id": "client_1",
+  "provider": "openai",
+  "model": "gpt-5.4",
+  "extracted_at": "2026-05-09T21:20:00.000000",
+  "duration_seconds": 88.42,
+  "agent": "professional",
+  "total_fields": 5,
+  "fields": {
+    "106": {
+      "value": "Senior Product Manager",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client states his current designation.",
+      "agent": "ProfessionalAgent",
+      "attribute": "Current Role",
+      "touch_point": "Professional Profile"
+    },
+    "107": {
+      "value": "Salaried employee",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Employment status mentioned directly.",
+      "agent": "ProfessionalAgent",
+      "attribute": "Employment Type",
+      "touch_point": "Professional Profile"
+    },
+    "108": {
+      "value": "Fintech",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client works at a fintech startup.",
+      "agent": "ProfessionalAgent",
+      "attribute": "Industry",
+      "touch_point": "Professional Profile"
+    },
+    "109": {
+      "value": "Mumbai",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client is based in Mumbai.",
+      "agent": "ProfessionalAgent",
+      "attribute": "Work Location",
+      "touch_point": "Professional Profile"
+    },
+    "110": {
+      "value": "Mid-career professional with leadership track ambitions",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Role scope and promotion goals discussed in transcript.",
+      "agent": "ProfessionalAgent",
+      "attribute": "Career Stage",
+      "touch_point": "Professional Profile"
+    }
+  }
+}

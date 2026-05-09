@@ -1,0 +1,56 @@
+{
+  "client_id": "client_2",
+  "provider": "openai",
+  "model": "gpt-5.4",
+  "extracted_at": "2026-04-25T21:42:54.395398",
+  "duration_seconds": 93.87,
+  "agent": "professional",
+  "total_fields": 5,
+  "fields": {
+    "106": {
+      "value": "UX Designer",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client: \"I'm a salaried employee and I work as a UX designer.\"",
+      "agent": "ProfessionalAgent",
+      "attribute": "Current Role",
+      "touch_point": "Professional Profile"
+    },
+    "107": {
+      "value": "Salaried employee",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client: \"I'm a salaried employee\".",
+      "agent": "ProfessionalAgent",
+      "attribute": "Employment Type",
+      "touch_point": "Professional Profile"
+    },
+    "108": {
+      "value": "Product / technology company",
+      "confidence": 0.4,
+      "confidence_level": "indirect",
+      "source": "Role context suggests a design function in a product-oriented company; employer name not explicitly captured.",
+      "agent": "ProfessionalAgent",
+      "attribute": "Industry",
+      "touch_point": "Professional Profile"
+    },
+    "109": {
+      "value": "Bangalore",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client: \"I'm also based out of Bangalore.\"",
+      "agent": "ProfessionalAgent",
+      "attribute": "Work Location",
+      "touch_point": "Professional Profile"
+    },
+    "110": {
+      "value": "Early career to mid-career professional",
+      "confidence": 0.6,
+      "confidence_level": "estimated",
+      "source": "Client is age 27, salaried, and already investing while exploring future education and career options.",
+      "agent": "ProfessionalAgent",
+      "attribute": "Career Stage",
+      "touch_point": "Professional Profile"
+    }
+  }
+}

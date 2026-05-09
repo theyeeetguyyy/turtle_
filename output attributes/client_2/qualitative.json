@@ -1,0 +1,175 @@
+{
+  "client_id": "client_2",
+  "provider": "openai",
+  "model": "gpt-5.4",
+  "extracted_at": "2026-04-25T21:42:54.395398",
+  "duration_seconds": 93.87,
+  "agent": "qualitative",
+  "total_fields": 15,
+  "fields": {
+    "144": {
+      "value": "H",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client sought structured financial planning, shared detailed data, discussed implementation/process, and attended follow-up planning review.",
+      "agent": "QualitativeAgent",
+      "attribute": "Turtle Relevance (H/M/L)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "145": {
+      "value": "Critical",
+      "confidence": 0.4,
+      "confidence_level": "indirect",
+      "source": "Client said planning felt \"very overwhelming,\" investments were \"very random,\" and \"I find it very hard to put trust in like any online or say YouTube\".",
+      "agent": "QualitativeAgent",
+      "attribute": "Prospect's Attitude (Optimistic/Pessimistic/Critical)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "146": {
+      "value": "M",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client understands some basics like tax, credit score, and asks clarifying questions, but says \"with investing, I don't have any idea what to do\" and asks \"what is an arbitrage fund?\"",
+      "agent": "QualitativeAgent",
+      "attribute": "Prospect's Financial Acumen (H/M/L)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "147": {
+      "value": "N",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client: \"I'm a salaried employee and I work as a UX designer.\"",
+      "agent": "QualitativeAgent",
+      "attribute": "Prospect's Financial Background (Y/N)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "148": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Prospect's Price Sensitivity (Y/N)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "149": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Introvert/Extrovert",
+      "touch_point": "Qualitative Parameters"
+    },
+    "150": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "RPA (Aggresive/Moderate/Conservative)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "151": {
+      "value": [
+        "Retirement planning",
+        "Emergency fund",
+        "Education planning",
+        "Career break planning",
+        "Car purchase",
+        "Vacation planning",
+        "Insurance planning",
+        "Mutual fund portfolio review"
+      ],
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client discussed goals around retirement at 45, emergency reserve, education corpus, 3-month break, car purchase, international vacations, insurance, and portfolio structuring.",
+      "agent": "QualitativeAgent",
+      "attribute": "Areas of Interest (Custom tags - PF)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "152": {
+      "value": [
+        "Safety buffer preference",
+        "Distrust of informal investment sources"
+      ],
+      "confidence": 0.4,
+      "confidence_level": "indirect",
+      "source": "Client repeatedly asked to be \"on the safer side\" and said \"I find it very hard to put trust in like any online or say YouTube\".",
+      "agent": "QualitativeAgent",
+      "attribute": "Financial Biases (Custom tags)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "153": {
+      "value": [
+        "Explorer",
+        "Long term investor"
+      ],
+      "confidence": 0.4,
+      "confidence_level": "indirect",
+      "source": "Client described investing as \"more of just exploratory just trying something\" and wants structure for \"the rest of my earning life\" with retirement planning.",
+      "agent": "QualitativeAgent",
+      "attribute": "Investing Style (Custom tags - Long term investor, Return seeker, Explorer etc.)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "154": {
+      "value": [
+        "Structure in financial planning",
+        "Starting early",
+        "Safety buffers",
+        "Keeping career/education options open"
+      ],
+      "confidence": 0.4,
+      "confidence_level": "indirect",
+      "source": "Client wanted \"some structure,\" \"start early,\" asked to keep estimates on \"the safer side,\" and wanted to keep education/career change possibilities open.",
+      "agent": "QualitativeAgent",
+      "attribute": "Likes",
+      "touch_point": "Qualitative Parameters"
+    },
+    "155": {
+      "value": [
+        "Unstructured/random investing",
+        "Overwhelming planning process",
+        "Untrusted online/YouTube advice"
+      ],
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client said planning was \"very overwhelming,\" investments were \"very random,\" and \"I find it very hard to put trust in like any online or say YouTube\".",
+      "agent": "QualitativeAgent",
+      "attribute": "Dislikes",
+      "touch_point": "Qualitative Parameters"
+    },
+    "156": {
+      "value": "M",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client uses Google Pay for credit score, ClearTax for filing, Gmail/Drive uploads, but asks for help navigating some financial tools and concepts.",
+      "agent": "QualitativeAgent",
+      "attribute": "Tech Saviness (H/M/L)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "157": {
+      "value": "M",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client is proactive and shares documents/questions, but repeatedly says investing has been unstructured and needs advisor guidance for execution.",
+      "agent": "QualitativeAgent",
+      "attribute": "Execution Capability (H/M/L)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "158": {
+      "value": [
+        "Proactive",
+        "Cautious",
+        "Reflective",
+        "Detail-oriented"
+      ],
+      "confidence": 0.4,
+      "confidence_level": "indirect",
+      "source": "Client reached out early, asked many clarifying questions, requested safer assumptions, and carefully revisited expenses/goals.",
+      "agent": "QualitativeAgent",
+      "attribute": "Behavioural Traits (Custom tags - Proactive, Diligent, Privacy freak)",
+      "touch_point": "Qualitative Parameters"
+    }
+  }
+}

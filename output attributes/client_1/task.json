@@ -1,0 +1,56 @@
+{
+  "client_id": "client_1",
+  "provider": "openai",
+  "model": "gpt-5.4",
+  "extracted_at": "2026-05-09T21:20:00.000000",
+  "duration_seconds": 88.42,
+  "agent": "task",
+  "total_fields": 5,
+  "fields": {
+    "101": {
+      "value": "Advisor to prepare a retirement and child education funding roadmap with SIP recommendations.",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Advisor commits to returning with a combined goal-based financial plan.",
+      "agent": "TaskAgent",
+      "attribute": "P0",
+      "touch_point": "Task Priority"
+    },
+    "102": {
+      "value": "Client to share home loan amortization schedule and current EMI details.",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Needed for debt optimization analysis.",
+      "agent": "TaskAgent",
+      "attribute": "P1",
+      "touch_point": "Task Priority"
+    },
+    "103": {
+      "value": "Advisor to review current mutual fund overlap and recommend portfolio cleanup.",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client requested portfolio simplification.",
+      "agent": "TaskAgent",
+      "attribute": "P2",
+      "touch_point": "Task Priority"
+    },
+    "104": {
+      "value": "Client to upload insurance policy documents to the shared drive.",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Documents requested to assess existing coverage.",
+      "agent": "TaskAgent",
+      "attribute": "P3",
+      "touch_point": "Task Priority"
+    },
+    "105": {
+      "value": "Client and spouse to confirm target budget for home upgrade before next meeting.",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Budget range was discussed but not finalized.",
+      "agent": "TaskAgent",
+      "attribute": "P4",
+      "touch_point": "Task Priority"
+    }
+  }
+}

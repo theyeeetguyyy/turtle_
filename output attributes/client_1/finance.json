@@ -1,0 +1,92 @@
+{
+  "client_id": "client_1",
+  "provider": "openai",
+  "model": "gpt-5.4",
+  "extracted_at": "2026-05-09T21:20:00.000000",
+  "duration_seconds": 88.42,
+  "agent": "finance",
+  "total_fields": 9,
+  "fields": {
+    "44": {
+      "value": "9200000",
+      "confidence": 0.85,
+      "confidence_level": "clearly_inferable",
+      "source": "Combined declared bank balance, provident fund, mutual funds, equity holdings, and gold.",
+      "agent": "FinanceAgent",
+      "attribute": "Assets Worth (Rs.)",
+      "touch_point": "Finances"
+    },
+    "46": {
+      "value": "1850000",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Outstanding home loan balance stated by client.",
+      "agent": "FinanceAgent",
+      "attribute": "Liabilities (Rs.)",
+      "touch_point": "Finances"
+    },
+    "48": {
+      "value": "340000",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Net monthly family inflow shared during cash-flow discussion.",
+      "agent": "FinanceAgent",
+      "attribute": "Family Income (Rs.)",
+      "touch_point": "Finances"
+    },
+    "50": {
+      "value": "185000",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client states average monthly household expenses are around 1.85 lakh.",
+      "agent": "FinanceAgent",
+      "attribute": "Monthly Expenses (Rs.)",
+      "touch_point": "Finances"
+    },
+    "51": {
+      "value": "Family floater health insurance",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client mentions a dedicated family floater plan in addition to employer cover.",
+      "agent": "FinanceAgent",
+      "attribute": "Policy Type",
+      "touch_point": "Finances"
+    },
+    "55": {
+      "value": "1500000",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Coverage amount confirmed in transcript.",
+      "agent": "FinanceAgent",
+      "attribute": "Coverage Amount (Rs.)",
+      "touch_point": "Finances"
+    },
+    "56": {
+      "value": "28500",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Annual premium stated by client.",
+      "agent": "FinanceAgent",
+      "attribute": "Premium (Rs.)",
+      "touch_point": "Finances"
+    },
+    "61": {
+      "value": "Y",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client confirms using two credit cards.",
+      "agent": "FinanceAgent",
+      "attribute": "Credit Card (Y/N)",
+      "touch_point": "Finances"
+    },
+    "78": {
+      "value": "2018",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client says he has been investing regularly since 2018.",
+      "agent": "FinanceAgent",
+      "attribute": "Investing since (year)",
+      "touch_point": "Finances"
+    }
+  }
+}

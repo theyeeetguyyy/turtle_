@@ -1,0 +1,74 @@
+{
+  "client_id": "client_1",
+  "provider": "openai",
+  "model": "gpt-5.4",
+  "extracted_at": "2026-05-09T21:20:00.000000",
+  "duration_seconds": 88.42,
+  "agent": "feedback",
+  "total_fields": 7,
+  "fields": {
+    "166": {
+      "value": "High engagement",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client asked detailed follow-up questions and discussed implementation steps.",
+      "agent": "FeedbackAgent",
+      "attribute": "Engagement Level",
+      "touch_point": "Feedback & Momentum"
+    },
+    "167": {
+      "value": "Positive",
+      "confidence": 0.8,
+      "confidence_level": "indirect",
+      "source": "Client responded constructively and welcomed next steps.",
+      "agent": "FeedbackAgent",
+      "attribute": "Overall Sentiment",
+      "touch_point": "Feedback & Momentum"
+    },
+    "168": {
+      "value": "Structured roadmap, family security, and execution accountability",
+      "confidence": 0.75,
+      "confidence_level": "estimated",
+      "source": "Themes repeated across the conversation.",
+      "agent": "FeedbackAgent",
+      "attribute": "What Resonated",
+      "touch_point": "Feedback & Momentum"
+    },
+    "169": {
+      "value": "Would like a simpler visual explanation of recommended asset allocation",
+      "confidence": 0.6,
+      "confidence_level": "indirect",
+      "source": "Client asked for an easy-to-follow summary.",
+      "agent": "FeedbackAgent",
+      "attribute": "Clarification Needed",
+      "touch_point": "Feedback & Momentum"
+    },
+    "170": {
+      "value": "Review plan with spouse over the weekend",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client mentioned discussing the proposal with spouse.",
+      "agent": "FeedbackAgent",
+      "attribute": "Next Client Action",
+      "touch_point": "Feedback & Momentum"
+    },
+    "171": {
+      "value": "Likely to continue to the next advisory step",
+      "confidence": 0.75,
+      "confidence_level": "estimated",
+      "source": "Client asked about implementation process and timelines.",
+      "agent": "FeedbackAgent",
+      "attribute": "Conversion Readiness",
+      "touch_point": "Feedback & Momentum"
+    },
+    "172": {
+      "value": "Share summarized action items within 24 hours",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Advisor committed to sending a recap promptly.",
+      "agent": "FeedbackAgent",
+      "attribute": "Advisor Follow-up",
+      "touch_point": "Feedback & Momentum"
+    }
+  }
+}

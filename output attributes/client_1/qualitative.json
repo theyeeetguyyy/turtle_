@@ -1,0 +1,117 @@
+{
+  "client_id": "client_1",
+  "provider": "openai",
+  "model": "gpt-5.4",
+  "extracted_at": "2026-05-09T21:20:00.000000",
+  "duration_seconds": 88.42,
+  "agent": "qualitative",
+  "total_fields": 10,
+  "fields": {
+    "144": {
+      "value": "H",
+      "confidence": 0.85,
+      "confidence_level": "clearly_inferable",
+      "source": "Client is proactive, organized, and already tracks financial decisions carefully.",
+      "agent": "QualitativeAgent",
+      "attribute": "Turtle Relevance (H/M/L)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "145": {
+      "value": "Optimistic",
+      "confidence": 0.8,
+      "confidence_level": "indirect",
+      "source": "Client focuses on long-term planning and future optionality with positive framing.",
+      "agent": "QualitativeAgent",
+      "attribute": "Prospect's Attitude (Optimistic/Pessimistic/Critical)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "146": {
+      "value": "H",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client is comfortable with investing concepts and asks allocation questions.",
+      "agent": "QualitativeAgent",
+      "attribute": "Prospect's Financial Acumen (H/M/L)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "147": {
+      "value": "N",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client works in product, not in core finance.",
+      "agent": "QualitativeAgent",
+      "attribute": "Prospect's Financial Background (Y/N)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "148": {
+      "value": "N",
+      "confidence": 0.75,
+      "confidence_level": "estimated",
+      "source": "Client prioritizes quality of advice over lowest cost.",
+      "agent": "QualitativeAgent",
+      "attribute": "Prospect's Price Sensitivity (Y/N)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "150": {
+      "value": "Moderate",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client is comfortable with growth assets but values downside planning.",
+      "agent": "QualitativeAgent",
+      "attribute": "RPA (Aggresive/Moderate/Conservative)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "151": {
+      "value": [
+        "Retirement planning",
+        "Children's education",
+        "Home upgrade planning",
+        "Tax optimization",
+        "Wealth compounding"
+      ],
+      "confidence": 0.9,
+      "confidence_level": "clearly_inferable",
+      "source": "Repeatedly discussed throughout the planning conversation.",
+      "agent": "QualitativeAgent",
+      "attribute": "Areas of Interest (Custom tags - PF)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "152": {
+      "value": [
+        "Avoiding lifestyle inflation",
+        "Maintaining high liquidity buffers"
+      ],
+      "confidence": 0.6,
+      "confidence_level": "indirect",
+      "source": "Client prefers strong emergency reserves and cautious debt use.",
+      "agent": "QualitativeAgent",
+      "attribute": "Financial Biases (Custom tags)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "153": {
+      "value": [
+        "Long term investor",
+        "Process oriented"
+      ],
+      "confidence": 0.75,
+      "confidence_level": "estimated",
+      "source": "Client values disciplined planning and long-term wealth creation.",
+      "agent": "QualitativeAgent",
+      "attribute": "Investing Style (Custom tags - Long term investor, Return seeker, Explorer etc.)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "154": {
+      "value": [
+        "Family security",
+        "Education funding",
+        "Career optionality"
+      ],
+      "confidence": 0.75,
+      "confidence_level": "estimated",
+      "source": "Client's decisions consistently optimize for resilience and flexibility.",
+      "agent": "QualitativeAgent",
+      "attribute": "Core Motivations",
+      "touch_point": "Qualitative Parameters"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "client_id": "client_1",
+  "provider": "openai",
+  "model": "gpt-5.4",
+  "extracted_at": "2026-05-09T21:20:00.000000",
+  "duration_seconds": 88.42,
+  "agent": "demographics",
+  "total_fields": 8,
+  "fields": {
+    "2": {
+      "value": "Arjun Mehta",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client introduction in transcript.",
+      "agent": "DemographicsAgent",
+      "attribute": "Lead/ Client Name",
+      "touch_point": "Demographics & Family"
+    },
+    "3": {
+      "value": "Male",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client self-identifies in transcript context.",
+      "agent": "DemographicsAgent",
+      "attribute": "Lead/ Client Gender",
+      "touch_point": "Demographics & Family"
+    },
+    "4": {
+      "value": "34",
+      "confidence": 0.9,
+      "confidence_level": "clearly_inferable",
+      "source": "DOB and age references match 34 years.",
+      "agent": "DemographicsAgent",
+      "attribute": "Lead/ Client's Age",
+      "touch_point": "Demographics & Family"
+    },
+    "5": {
+      "value": "Married",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client mentions spouse and shared goals.",
+      "agent": "DemographicsAgent",
+      "attribute": "Marital Status",
+      "touch_point": "Demographics & Family"
+    },
+    "12": {
+      "value": "Mumbai, Maharashtra",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client says he is currently living in Mumbai.",
+      "agent": "DemographicsAgent",
+      "attribute": "Current Residence (City, State)",
+      "touch_point": "Demographics & Family"
+    },
+    "13": {
+      "value": "1",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client mentions one child.",
+      "agent": "DemographicsAgent",
+      "attribute": "Kids (Count)",
+      "touch_point": "Demographics & Family"
+    },
+    "16": {
+      "value": "14/08/1991",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "DOB shared in onboarding details.",
+      "agent": "DemographicsAgent",
+      "attribute": "Date of Birth",
+      "touch_point": "Demographics & Family"
+    },
+    "17": {
+      "value": "21/01/2018",
+      "confidence": 0.8,
+      "confidence_level": "exact_quote",
+      "source": "Marriage date shared during family discussion.",
+      "agent": "DemographicsAgent",
+      "attribute": "Anniversary Date",
+      "touch_point": "Demographics & Family"
+    }
+  }
+}

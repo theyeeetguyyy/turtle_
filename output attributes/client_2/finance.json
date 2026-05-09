@@ -1,0 +1,335 @@
+{
+  "client_id": "client_2",
+  "provider": "openai",
+  "model": "gpt-5.4",
+  "extracted_at": "2026-04-25T21:42:54.395398",
+  "duration_seconds": 93.87,
+  "agent": "finance",
+  "total_fields": 36,
+  "fields": {
+    "43": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Assets Worth ($)",
+      "touch_point": "Finances"
+    },
+    "44": {
+      "value": "3785000",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Summing explicit INR assets from 2nd call: bank account 12 lakh + EPFO 6 lakh + direct equities 10 lakh + mutual funds 8.8 lakh + gold 85,000; advisor says real estate not allocated and family-controlled.",
+      "agent": "FinanceAgent",
+      "attribute": "Assets Worth (Rs.)",
+      "touch_point": "Finances"
+    },
+    "45": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Liabilities ($)",
+      "touch_point": "Finances"
+    },
+    "46": {
+      "value": "0",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client: \"I've never taken up any EMIs or anything\" and advisor: \"Any loan here for this property... Nothing.\"",
+      "agent": "FinanceAgent",
+      "attribute": "Liabilities (Rs.)",
+      "touch_point": "Finances"
+    },
+    "47": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Family Income ($)",
+      "touch_point": "Finances"
+    },
+    "48": {
+      "value": "265000",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Advisor: \"the amount which gets the bank account monthly is around 2.65\" and later \"monthly we receive around 2.65\".",
+      "agent": "FinanceAgent",
+      "attribute": "Family Income (Rs.)",
+      "touch_point": "Finances"
+    },
+    "49": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Monthly Expenses ($)",
+      "touch_point": "Finances"
+    },
+    "50": {
+      "value": "132000",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "2nd call: advisor says \"our current expenses... about 1.3 lakh rupees\" and \"We shell out around 1.32\".",
+      "agent": "FinanceAgent",
+      "attribute": "Monthly Expenses (Rs.)",
+      "touch_point": "Finances"
+    },
+    "51": {
+      "value": "Corporate health insurance",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client: \"I'm using corporate insurance only.\"",
+      "agent": "FinanceAgent",
+      "attribute": "Policy Type",
+      "touch_point": "Finances"
+    },
+    "52": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Insurance Company",
+      "touch_point": "Finances"
+    },
+    "53": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Policy Name",
+      "touch_point": "Finances"
+    },
+    "54": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Purchase Mode (Online/Offline)",
+      "touch_point": "Finances"
+    },
+    "55": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Coverage Amount (Rs.)",
+      "touch_point": "Finances"
+    },
+    "56": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Premium (Rs.)",
+      "touch_point": "Finances"
+    },
+    "57": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Policy Renewal Date (DD/MM/YY)",
+      "touch_point": "Finances"
+    },
+    "58": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Coverage Adequacy (H/M/L/Ok)",
+      "touch_point": "Finances"
+    },
+    "59": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "HUF (Y/N)",
+      "touch_point": "Finances"
+    },
+    "60": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Will Executed (Y/N)",
+      "touch_point": "Finances"
+    },
+    "61": {
+      "value": "Y",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client: \"So I started using a credit card about three months back, the first credit.\"",
+      "agent": "FinanceAgent",
+      "attribute": "Credit Card (Y/N)",
+      "touch_point": "Finances"
+    },
+    "62": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Card Name(s)",
+      "touch_point": "Finances"
+    },
+    "63": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "CC Issuing Authority (Bank/Amex etc.)",
+      "touch_point": "Finances"
+    },
+    "64": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Card Type (Visa/MC/Diners/Amex)",
+      "touch_point": "Finances"
+    },
+    "65": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Banking Partner(s)",
+      "touch_point": "Finances"
+    },
+    "66": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Account Holder (Self/Spouse/Kid/Parent)",
+      "touch_point": "Finances"
+    },
+    "67": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Income Tax Portal Password (hidden)",
+      "touch_point": "Finances"
+    },
+    "68": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "ESOPs/RSUs Vested Units",
+      "touch_point": "Finances"
+    },
+    "69": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "ESOPs Exercised Units",
+      "touch_point": "Finances"
+    },
+    "70": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "FMV ($)",
+      "touch_point": "Finances"
+    },
+    "71": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "ESOPs/RSUs Worth ($)",
+      "touch_point": "Finances"
+    },
+    "72": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "FMV (Rs.)",
+      "touch_point": "Finances"
+    },
+    "73": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "ESOPs/RSUs Worth (Rs.)",
+      "touch_point": "Finances"
+    },
+    "74": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Tax Filed till FY",
+      "touch_point": "Finances"
+    },
+    "75": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Advance Tax paid till (MM/YY)",
+      "touch_point": "Finances"
+    },
+    "76": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Penalty Paid in FY",
+      "touch_point": "Finances"
+    },
+    "77": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Interest Paid in FY",
+      "touch_point": "Finances"
+    },
+    "78": {
+      "value": "2024",
+      "confidence": 0.6,
+      "confidence_level": "estimated",
+      "source": "Client: \"I started taking investments semi seriously about last year\"; meeting is in 2025.",
+      "agent": "FinanceAgent",
+      "attribute": "Investing since (year)",
+      "touch_point": "Finances"
+    }
+  }
+}

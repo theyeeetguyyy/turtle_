@@ -1,0 +1,56 @@
+{
+  "client_id": "client_2",
+  "provider": "openai",
+  "model": "gpt-5.4",
+  "extracted_at": "2026-04-25T21:42:54.395398",
+  "duration_seconds": 93.87,
+  "agent": "task",
+  "total_fields": 5,
+  "fields": {
+    "101": {
+      "value": "Advisor to prepare and come back with the financial plan, including insurance, emergency reserve, retirement, car purchase, education goal, cash flows, and portfolio analysis, in about 3-4 days.",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Advisor: \"Let me do this analysis and give me about three to four days and then we can catch up once again. I will present to you the financial plan along with your mutual fund portfolios and other stuff.\"",
+      "agent": "TaskAgent",
+      "attribute": "P0",
+      "touch_point": "Task Priority"
+    },
+    "102": {
+      "value": "Advisor to generate and review the client's consolidated account statement / CAS for mutual fund holdings and transactions.",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Advisor: \"I will generate a consolidated account statement for you...\" and \"I've sent a consolidated account statement\"",
+      "agent": "TaskAgent",
+      "attribute": "P1",
+      "touch_point": "Task Priority"
+    },
+    "103": {
+      "value": "Client to check and let the advisor know the employer group insurance details, including group life cover, personal accident cover, and critical illness cover.",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Advisor: \"Yeah, sure. You check and let us know of this. Just check out for options like do you have any personal accident cover or critical illness cover as well.\"",
+      "agent": "TaskAgent",
+      "attribute": "P2",
+      "touch_point": "Task Priority"
+    },
+    "104": {
+      "value": "Client to upload the consolidated account statement received in email to her Google Drive folder.",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Advisor: \"You can drop in the same share drive... You can upload it there.\" Client: \"Okay, I'll upload it.\"",
+      "agent": "TaskAgent",
+      "attribute": "P3",
+      "touch_point": "Task Priority"
+    },
+    "105": {
+      "value": "Client to check the likely rental amount / yield for the Howrah property and revert.",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Advisor: \"But just take a look at it. Might not be 15k.\" Client: \"I should be able to. Give me some time.\"",
+      "agent": "TaskAgent",
+      "attribute": "P4",
+      "touch_point": "Task Priority"
+    }
+  }
+}

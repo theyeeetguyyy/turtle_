@@ -1,0 +1,29 @@
+{
+  "client_id": "client_2",
+  "provider": "openai",
+  "model": "gpt-5.4",
+  "extracted_at": "2026-04-25T21:42:54.395398",
+  "duration_seconds": 93.87,
+  "agent": "system",
+  "total_fields": 2,
+  "fields": {
+    "1": {
+      "value": "client_2",
+      "confidence": 1.0,
+      "confidence_level": "exact_quote",
+      "source": "System",
+      "agent": "SystemResolver",
+      "attribute": "T_id",
+      "touch_point": "Turtle ID"
+    },
+    "173": {
+      "value": "2026-04-25T21:42:54.359633",
+      "confidence": 1.0,
+      "confidence_level": "exact_quote",
+      "source": "System",
+      "agent": "SystemResolver",
+      "attribute": "Last touchpoint date",
+      "touch_point": "Engagement"
+    }
+  }
+}

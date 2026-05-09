@@ -1,0 +1,267 @@
+{
+  "client_id": "client_2",
+  "provider": "openai",
+  "model": "gpt-5.4",
+  "extracted_at": "2026-04-25T21:42:54.395398",
+  "duration_seconds": 93.87,
+  "agent": "feedback",
+  "total_fields": 23,
+  "fields": {
+    "106": {
+      "value": [
+        "Advisor to prepare and come back with the financial plan in about 3-4 days.",
+        "Advisor to analyze the client's mutual fund portfolio and existing holdings.",
+        "Advisor to generate and review the consolidated account statement (CAS).",
+        "Client to check and share employer group coverage details, including life insurance, personal accident cover, and critical illness cover.",
+        "Client to upload the consolidated account statement to the Google Drive folder.",
+        "Client to check/open the CAS email sent by the advisor.",
+        "Client to verify/confirm likely rental income for the Howrah/Kolkata property."
+      ],
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "“I will come back to you with your insurance consultancy...”; “I will generate a consolidated account statement”; “you check and let us know... personal accident cover or critical illness cover”; “You can upload it there”; “just take a look at it. Might not be 15k.”",
+      "agent": "FeedbackAgent",
+      "attribute": "Action Items",
+      "touch_point": "Custom Fields (text)"
+    },
+    "107": {
+      "value": [
+        "What is the client's employer group life insurance coverage?",
+        "Does the employer provide personal accident cover?",
+        "Does the employer provide critical illness cover?",
+        "What is the actual/confirmed rental income potential of the family property?",
+        "Does the client's organization provide a sabbatical option?"
+      ],
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Open items discussed but not resolved: group coverage details, rental estimate, and sabbatical availability.",
+      "agent": "FeedbackAgent",
+      "attribute": "Open Queries",
+      "touch_point": "Custom Fields (text)"
+    },
+    "108": {
+      "value": {
+        "level": "M",
+        "text": "Moderate complexity. The case includes retirement planning, emergency reserve, car purchase, possible 3-month career break, education/skill-upgradation planning, review and consolidation of scattered mutual fund/direct equity holdings, employer insurance verification, and a family-linked property that may support future education funding."
+      },
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Multiple goals and portfolio cleanup discussed across both calls; no tax residency/NRI cross-border complexity explicitly discussed in this transcript.",
+      "agent": "FeedbackAgent",
+      "attribute": "Case Complexity (H/M/L) + Custom text",
+      "touch_point": "Custom Fields (text)"
+    },
+    "109": {
+      "value": "Client asked how to add information between calls and whether updates should be shared directly or over calls; advisor said the client can email the Turtle team anytime and they will cascade the information or schedule a call if needed.",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "“If there is something I want to add... do I just send it to you directly...?” / “you can drop in an email to the Turtle team...”",
+      "agent": "FeedbackAgent",
+      "attribute": "Special Request",
+      "touch_point": "Custom Fields (text)"
+    },
+    "110": {
+      "value": "Client feels financial planning and investing have been overwhelming and anxiety-inducing; investments so far have been random/unstructured. Client has no current dependents, no immediate house goal, low priority for marriage, wants flexibility for future education/career change, and may consider a short intentional career break around Q3 2026. A family property is under the client's name but major decisions are family-driven.",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client described overwhelm, anxiety, lack of structure, future education flexibility, possible career break, and limited control over family property.",
+      "agent": "FeedbackAgent",
+      "attribute": "Special Information",
+      "touch_point": "Custom Fields (text)"
+    },
+    "111": {
+      "value": "Client can send any additional information by email to the Turtle team; the team will either address it directly or schedule a call with the advisor.",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "“you can drop in at any point of time, drop in an email to the Turtle team and they will cascade the information”",
+      "agent": "FeedbackAgent",
+      "attribute": "Special Instructions",
+      "touch_point": "Custom Fields (text)"
+    },
+    "112": {
+      "value": [
+        "Data gathering for financial plan",
+        "Understanding family and personal background",
+        "Identifying goals and timelines",
+        "Retirement / financial freedom planning",
+        "Employment details and benefits",
+        "Cash flow and expense review",
+        "Risk management and insurance needs",
+        "Review of existing investments and assets/liabilities",
+        "Emergency reserve planning",
+        "Car purchase planning",
+        "Education / skill-upgradation planning",
+        "Possible career break planning",
+        "Mutual fund portfolio analysis and consolidation"
+      ],
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Advisor outlined the scope at the start of call 1 and presented plan components in call 2.",
+      "agent": "FeedbackAgent",
+      "attribute": "Consultation Agenda",
+      "touch_point": "Custom Fields (text)"
+    },
+    "113": {
+      "value": "Overall sentiment is positive and engaged, with underlying financial anxiety and uncertainty. The client is receptive to guidance, asks clarifying questions, and appears relieved to get structure around planning.",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client said planning was “very overwhelming,” wanted structure “to sleep better at night,” and responded positively/engaged throughout the calls.",
+      "agent": "FeedbackAgent",
+      "attribute": "Sentiment Analysis",
+      "touch_point": "Custom Fields (text)"
+    },
+    "114": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Client's feedback on Financial Planner",
+      "touch_point": "Custom Fields (text)"
+    },
+    "115": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Client's feedback on Tax Advisor",
+      "touch_point": "Custom Fields (text)"
+    },
+    "116": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Client's feedback on Estate Planner",
+      "touch_point": "Custom Fields (text)"
+    },
+    "117": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Client's feedback on Banking & Compliance Advisor",
+      "touch_point": "Custom Fields (text)"
+    },
+    "118": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Client's feedback on Insurance Advisor",
+      "touch_point": "Custom Fields (text)"
+    },
+    "119": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Client's feedback on Credit Card Advisor",
+      "touch_point": "Custom Fields (text)"
+    },
+    "120": {
+      "value": "Client is thoughtful and cooperative but currently lacks structure in investing and needs guidance. Advisor noted the client's investments were unstructured/experimental and recommended consolidation and using mutual funds going forward rather than direct equities.",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Advisor responses to client's unstructured investing; “We will try consolidating that”; “direct equities is something which we don't advise...”",
+      "agent": "FeedbackAgent",
+      "attribute": "Financial Planner's feedback on Client",
+      "touch_point": "Custom Fields (text)"
+    },
+    "121": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Tax Advisor's feedback on Client",
+      "touch_point": "Custom Fields (text)"
+    },
+    "122": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Estate Planner's feedback on Client",
+      "touch_point": "Custom Fields (text)"
+    },
+    "123": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Insurance Advisor's feedback on Client",
+      "touch_point": "Custom Fields (text)"
+    },
+    "124": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Banking & Compliance Advisor's feedback on Client",
+      "touch_point": "Custom Fields (text)"
+    },
+    "125": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Credit Card Advisor's feedback on Client",
+      "touch_point": "Custom Fields (text)"
+    },
+    "126": {
+      "value": [
+        "Client has strong monthly surplus relative to expenses, making retirement and education goals feasible per advisor.",
+        "Emergency reserve can be funded from existing cash.",
+        "Client is starting planning relatively early in career.",
+        "No financial dependents currently.",
+        "Good credit score mentioned (789)."
+      ],
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Advisor said goals can be addressed comfortably within current surplus; client has cash reserve and no dependents.",
+      "agent": "FeedbackAgent",
+      "attribute": "Wins",
+      "touch_point": "Custom Fields (text)"
+    },
+    "127": {
+      "value": [
+        "Client lacks a structured investment approach.",
+        "Portfolio appears fragmented across many mutual fund schemes and direct equities.",
+        "No personal term insurance or personal medical insurance confirmed; relying on corporate cover.",
+        "Some employer insurance details are still unverified.",
+        "Several goals are still ambiguous or not fully quantified, especially marriage and education specifics."
+      ],
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client repeatedly described investing as random/unstructured; advisor noted 21 mutual fund schemes and no personal insurance.",
+      "agent": "FeedbackAgent",
+      "attribute": "Gaps",
+      "touch_point": "Custom Fields (text)"
+    },
+    "128": {
+      "value": [
+        "Consolidate and clean up the mutual fund portfolio.",
+        "Avoid fresh direct equity investing and prefer mutual funds going forward.",
+        "Use arbitrage funds for emergency reserve and near-term break corpus, subject to timeline.",
+        "Maintain emergency reserve around 6-7 months rather than 8 months.",
+        "Verify employer insurance benefits and assess additional insurance needs."
+      ],
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Advisor recommendations across both calls on portfolio consolidation, mutual funds, arbitrage funds, reserve sizing, and insurance verification.",
+      "agent": "FeedbackAgent",
+      "attribute": "Suggestions",
+      "touch_point": "Custom Fields (text)"
+    }
+  }
+}

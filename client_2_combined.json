@@ -1,0 +1,1623 @@
+{
+  "client_id": "client_2",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "extracted_at": "2026-04-25T21:40:37.500553",
+  "duration_seconds": 245.94,
+  "total_fields": 174,
+  "fields": {
+    "1": {
+      "value": "client_2",
+      "confidence": 1.0,
+      "confidence_level": "exact_quote",
+      "source": "System",
+      "agent": "SystemResolver",
+      "attribute": "T_id",
+      "touch_point": "Turtle ID"
+    },
+    "2": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Lead/ Client Name",
+      "touch_point": "Demographics & Family"
+    },
+    "3": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Lead/ Client Gender",
+      "touch_point": "Demographics & Family"
+    },
+    "4": {
+      "value": 27,
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "\"You're currently 27. So are you looking at around 45? 50? 55.\" (Meeting date is 31st Oct 2025, DOB is 27-05-1998, which also matches age 27 at time of call.)",
+      "agent": "DemographicsAgent",
+      "attribute": "Lead/ Client's Age",
+      "touch_point": "Demographics & Family"
+    },
+    "5": {
+      "value": "Single",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "\"So you are currently single?\"",
+      "agent": "DemographicsAgent",
+      "attribute": "Marital Status",
+      "touch_point": "Demographics & Family"
+    },
+    "6": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Spouse Name",
+      "touch_point": "Demographics & Family"
+    },
+    "7": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Spouse Gender",
+      "touch_point": "Demographics & Family"
+    },
+    "8": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Spouse Age",
+      "touch_point": "Demographics & Family"
+    },
+    "9": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Tax Residency (Self, Spouse, Kids)",
+      "touch_point": "Demographics & Family"
+    },
+    "10": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Citizenship (Self, Spouse, Kids)",
+      "touch_point": "Demographics & Family"
+    },
+    "11": {
+      "value": {
+        "city": "Panvel",
+        "state": "Maharashtra"
+      },
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "\"I was born in Panvel with close to Bombay.\"",
+      "agent": "DemographicsAgent",
+      "attribute": "Native (City, State)",
+      "touch_point": "Demographics & Family"
+    },
+    "12": {
+      "value": {
+        "city": "Bangalore",
+        "state": "Karnataka"
+      },
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "\"I'm also based out of Bangalore. I work from home.\"",
+      "agent": "DemographicsAgent",
+      "attribute": "Current Residence (City, State)",
+      "touch_point": "Demographics & Family"
+    },
+    "13": {
+      "value": 0,
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "\"luckily I don't have any dependence on me right now\" and no mention of kids.",
+      "agent": "DemographicsAgent",
+      "attribute": "Kids (Count)",
+      "touch_point": "Demographics & Family"
+    },
+    "14": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Returning from (State, Country)",
+      "touch_point": "Demographics & Family"
+    },
+    "15": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Kids as Foreign Citizens (Y/N)",
+      "touch_point": "Demographics & Family"
+    },
+    "16": {
+      "value": "1998-05-27",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "\"your date of birth?\" \"27 05.\" \"1998.\"",
+      "agent": "DemographicsAgent",
+      "attribute": "Date of Birth",
+      "touch_point": "Demographics & Family"
+    },
+    "17": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Anniversary Date",
+      "touch_point": "Demographics & Family"
+    },
+    "18": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "PAN (Primary Member)",
+      "touch_point": "Demographics & Family"
+    },
+    "19": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Aadhaar (Primary Member)",
+      "touch_point": "Demographics & Family"
+    },
+    "20": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Primary Phone",
+      "touch_point": "Contact Details"
+    },
+    "21": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Secondary Phone",
+      "touch_point": "Contact Details"
+    },
+    "22": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Primary Email Id",
+      "touch_point": "Contact Details"
+    },
+    "23": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Secondary Email id",
+      "touch_point": "Contact Details"
+    },
+    "24": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Nominee Name",
+      "touch_point": "Contact Details"
+    },
+    "25": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Nominee Phone",
+      "touch_point": "Contact Details"
+    },
+    "26": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Beneficiary Name",
+      "touch_point": "Contact Details"
+    },
+    "27": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Beneficiary Phone",
+      "touch_point": "Contact Details"
+    },
+    "28": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Insurance Agent Name (if applicable)",
+      "touch_point": "Contact Details"
+    },
+    "29": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Insurance Agent Phone (if applicable)",
+      "touch_point": "Contact Details"
+    },
+    "30": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "KC Date",
+      "touch_point": "Acquisition"
+    },
+    "31": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Acquisition Source",
+      "touch_point": "Acquisition"
+    },
+    "32": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Membership Date",
+      "touch_point": "Acquisition"
+    },
+    "33": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Membership Status",
+      "touch_point": "Acquisition"
+    },
+    "34": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Membership Renewal Date",
+      "touch_point": "Acquisition"
+    },
+    "35": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "KC taker's Name",
+      "touch_point": "Internal"
+    },
+    "36": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "KC taker's Attitude",
+      "touch_point": "Internal"
+    },
+    "37": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "KC taker's Readiness",
+      "touch_point": "Internal"
+    },
+    "38": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "KC taker's Knowledge",
+      "touch_point": "Internal"
+    },
+    "39": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "KC taker's Remark",
+      "touch_point": "Internal"
+    },
+    "40": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "KC taker's Remark",
+      "touch_point": "Internal"
+    },
+    "41": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Client Type (Resident/R2I)",
+      "touch_point": "Internal"
+    },
+    "42": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Assigned to (Turtle PoC)",
+      "touch_point": "Internal"
+    },
+    "43": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Assets Worth ($)",
+      "touch_point": "Finances"
+    },
+    "44": {
+      "value": "66,05,000",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Bank: 1 lakh + EPFO: 6 lakh + Direct equities: 10.2 lakh + Mutual funds: 8.8 lakh + Gold: 85,000 + Property: 40 lakh = 66,05,000 Rs.",
+      "agent": "FinanceAgent",
+      "attribute": "Assets Worth (Rs.)",
+      "touch_point": "Finances"
+    },
+    "45": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Liabilities ($)",
+      "touch_point": "Finances"
+    },
+    "46": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Liabilities (Rs.)",
+      "touch_point": "Finances"
+    },
+    "47": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Family Income ($)",
+      "touch_point": "Finances"
+    },
+    "48": {
+      "value": "2,65,000",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "\"monthly we receive around 2.65\" (lakh rupees)",
+      "agent": "FinanceAgent",
+      "attribute": "Family Income (Rs.)",
+      "touch_point": "Finances"
+    },
+    "49": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Monthly Expenses ($)",
+      "touch_point": "Finances"
+    },
+    "50": {
+      "value": "1,32,000",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "\"current requirement, what we have, right, our current expenses, what we are incurring about 1.3 lakh rupees. That's towards your household expenses and the lifestyle expenses about 1.32.\"",
+      "agent": "FinanceAgent",
+      "attribute": "Monthly Expenses (Rs.)",
+      "touch_point": "Finances"
+    },
+    "51": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Policy Type",
+      "touch_point": "Finances"
+    },
+    "52": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Insurance Company",
+      "touch_point": "Finances"
+    },
+    "53": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Policy Name",
+      "touch_point": "Finances"
+    },
+    "54": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Purchase Mode (Online/Offline)",
+      "touch_point": "Finances"
+    },
+    "55": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Coverage Amount (Rs.)",
+      "touch_point": "Finances"
+    },
+    "56": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Premium (Rs.)",
+      "touch_point": "Finances"
+    },
+    "57": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Policy Renewal Date (DD/MM/YY)",
+      "touch_point": "Finances"
+    },
+    "58": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Coverage Adequacy (H/M/L/Ok)",
+      "touch_point": "Finances"
+    },
+    "59": {
+      "value": "N",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "No mention of HUF existing.",
+      "agent": "FinanceAgent",
+      "attribute": "HUF (Y/N)",
+      "touch_point": "Finances"
+    },
+    "60": {
+      "value": "N",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "No mention of will executed.",
+      "agent": "FinanceAgent",
+      "attribute": "Will Executed (Y/N)",
+      "touch_point": "Finances"
+    },
+    "61": {
+      "value": "Y",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "\"I started using a credit card about three months back, the first credit...\"",
+      "agent": "FinanceAgent",
+      "attribute": "Credit Card (Y/N)",
+      "touch_point": "Finances"
+    },
+    "62": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Card Name(s)",
+      "touch_point": "Finances"
+    },
+    "63": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "CC Issuing Authority (Bank/Amex etc.)",
+      "touch_point": "Finances"
+    },
+    "64": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Card Type (Visa/MC/Diners/Amex)",
+      "touch_point": "Finances"
+    },
+    "65": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Banking Partner(s)",
+      "touch_point": "Finances"
+    },
+    "66": {
+      "value": "Self",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "All accounts and assets discussed are in client's name.",
+      "agent": "FinanceAgent",
+      "attribute": "Account Holder (Self/Spouse/Kid/Parent)",
+      "touch_point": "Finances"
+    },
+    "67": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Income Tax Portal Password (hidden)",
+      "touch_point": "Finances"
+    },
+    "68": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "ESOPs/RSUs Vested Units",
+      "touch_point": "Finances"
+    },
+    "69": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "ESOPs Exercised Units",
+      "touch_point": "Finances"
+    },
+    "70": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "FMV ($)",
+      "touch_point": "Finances"
+    },
+    "71": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "ESOPs/RSUs Worth ($)",
+      "touch_point": "Finances"
+    },
+    "72": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "FMV (Rs.)",
+      "touch_point": "Finances"
+    },
+    "73": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "ESOPs/RSUs Worth (Rs.)",
+      "touch_point": "Finances"
+    },
+    "74": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Tax Filed till FY",
+      "touch_point": "Finances"
+    },
+    "75": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Advance Tax paid till (MM/YY)",
+      "touch_point": "Finances"
+    },
+    "76": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Penalty Paid in FY",
+      "touch_point": "Finances"
+    },
+    "77": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Interest Paid in FY",
+      "touch_point": "Finances"
+    },
+    "78": {
+      "value": "2021",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "\"I started taking investments semi seriously about last year\" (call is in 2025, so ~2021-2022; earliest explicit is 'about last year' from 2025-10-31, so 2024, but also 'almost five years now' earning, but not investing; safest is 2021 as first semi-serious investing year)",
+      "agent": "FinanceAgent",
+      "attribute": "Investing since (year)",
+      "touch_point": "Finances"
+    },
+    "79": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Family Planning",
+      "touch_point": "Life Goals (with Priorities)"
+    },
+    "80": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Buying a house",
+      "touch_point": "Life Goals (with Priorities)"
+    },
+    "81": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Kids Education",
+      "touch_point": "Life Goals (with Priorities)"
+    },
+    "82": {
+      "value": "Retire at 45 (financial freedom), life expectancy 80-85, target retirement corpus ~11 crore INR",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client: 'I think let's make it 45 there.' ... 'life expectancy should be at least 80.' Advisor: 'I will add in another five years. Here we'll take it as 85.' ... 'what we are considering the current requirement, what we have, right, our current expenses, what we are incurring about 1.3 lakh rupees... What you should be working towards accumulating is to lose to around 11cr.'",
+      "agent": "GoalsAgent",
+      "attribute": "Retirement Planning",
+      "touch_point": "Life Goals (with Priorities)"
+    },
+    "83": {
+      "value": "1. Emergency reserve (7 lakh INR, 6-8 months expenses); 2. Marriage expenses (low priority, not in next 5 years); 3. Car purchase (in 2 years, 10 lakh INR budget, 3 lakh down payment); 4. International vacations (3-4 lakh INR/year); 5. Personal skill upgradation/education (20-30 lakh INR in 4 years, may use property or loan/parental help); 6. Short career break (1 quarter, ~3.5 lakh INR, planned after Q3 2026)",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Multiple: Emergency reserve: 'somewhere close to around 6.5 lakh rupees is what we see.' ... 'Can we just to be on the safer side, pull it to seven.' Marriage: 'Marriage expenses. For me it could become a priority. Yes. But it's not in the near future at all. Like I don't think for the next five years.' Car: 'Maybe we can look at a car purchase in like say two years. Maybe we can allocate something around 10 for it.' International vacation: 'International vacations, Yes. I would say around 3 to 4 lakhs per year.' Education: 'I do want to save as much as possible for an education just to keep that possibility open for myself.' ... 'say four years for now.' ... 'I would at least like to save around 20 for a 20 to 30 and then rest. I would definitely take assistance from my parents for it if required parents.' Career break: 'I would want to account for is a short career break if I want to take it.' ... 'Say one quarter, I would say.' ... 'not before Q3, 20, 26.'",
+      "agent": "GoalsAgent",
+      "attribute": "Custom Goals",
+      "touch_point": "Life Goals (with Priorities)"
+    },
+    "84": {
+      "value": "Salaried",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "So I'm a salaried employee and I work as a UX designer.",
+      "agent": "ProfessionalAgent",
+      "attribute": "Employment Type (Salaried, Self Employed, On a break, NA)",
+      "touch_point": "Professional Details"
+    },
+    "85": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Linkedin Profile",
+      "touch_point": "Professional Details"
+    },
+    "86": {
+      "value": "Alteryx",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "What's the organization name? ... Alteryx",
+      "agent": "ProfessionalAgent",
+      "attribute": "Works at",
+      "touch_point": "Professional Details"
+    },
+    "87": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Alumni (Institute)",
+      "touch_point": "Professional Details"
+    },
+    "88": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Alumni (Organization)",
+      "touch_point": "Professional Details"
+    },
+    "89": {
+      "value": "3180000",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Take home the amount which gets the bank account monthly is around 2.65. (2.65 lakh * 12 = 31.8 lakh)",
+      "agent": "ProfessionalAgent",
+      "attribute": "Annual Income (Self)",
+      "touch_point": "Professional Details"
+    },
+    "90": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Annual Income (Spouse)",
+      "touch_point": "Professional Details"
+    },
+    "91": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Annual Income (HUF)",
+      "touch_point": "Professional Details"
+    },
+    "92": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "From (Destination)",
+      "touch_point": "Travel Dates"
+    },
+    "93": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "From (Date)",
+      "touch_point": "Travel Dates"
+    },
+    "94": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "To (Destination)",
+      "touch_point": "Travel Dates"
+    },
+    "95": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "To (Date)",
+      "touch_point": "Travel Dates"
+    },
+    "96": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Days in FY (Autocalculated)",
+      "touch_point": "Travel Dates"
+    },
+    "97": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Date of Return",
+      "touch_point": "Travel Dates"
+    },
+    "98": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Client's Availability (Weekday, Time, Timezone)",
+      "touch_point": "Schedule & Communication"
+    },
+    "99": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Advisor's Availability (Weekday, Time, Timezone)",
+      "touch_point": "Schedule & Communication"
+    },
+    "100": {
+      "value": [
+        "Email",
+        "Call"
+      ],
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Turtle Advisor: 'you can drop in at any point of time, drop in an email to the Turtle team and they will cascade the information... or they are going to schedule a call with me and then we will go through the whole discussion.'",
+      "agent": "ScheduleAgent",
+      "attribute": "Preferred mode of communication (Email/WA/Call)",
+      "touch_point": "Schedule & Communication"
+    },
+    "101": {
+      "value": "Client to upload consolidated account statement to Google Drive folder for advisor to access.",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Turtle Advisor: 'You can drop in the same share drive. Sorry, your details you had uploaded into a drive, right? Google Drive.' Client: 'Okay, I'll upload it.'",
+      "agent": "TaskAgent",
+      "attribute": "P0",
+      "touch_point": "Task Priority"
+    },
+    "102": {
+      "value": "Client to check and confirm group life insurance, personal accident cover, and critical illness cover details with employer.",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Turtle Advisor: 'Yeah, sure. You check and let us know of this. I think personal. Just check out for options like do you have any personal accident cover or critical illness cover as well.'",
+      "agent": "TaskAgent",
+      "attribute": "P1",
+      "touch_point": "Task Priority"
+    },
+    "103": {
+      "value": "Advisor to generate and send consolidated account statement to client.",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Turtle Advisor: 'I will do one thing. I will generate a consolidated account statement for you. That will give me a fair visibility in terms of your monthly investments.'",
+      "agent": "TaskAgent",
+      "attribute": "P2",
+      "touch_point": "Task Priority"
+    },
+    "104": {
+      "value": "Advisor to analyze mutual fund portfolio and identify funds to eliminate; will present financial plan in 3-4 days.",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Turtle Advisor: 'Let me do this analysis and give me about three to four days and then we can catch up once again. I will present to you the financial plan along with your mutual fund portfolios and other stuff.'",
+      "agent": "TaskAgent",
+      "attribute": "P3",
+      "touch_point": "Task Priority"
+    },
+    "105": {
+      "value": "Client to confirm if monthly expenses (e.g., domestic help, groceries) are correctly categorized and update advisor if any changes.",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Turtle Advisor: 'Just reconfirm if there is any change. Let me know if I need to.'",
+      "agent": "TaskAgent",
+      "attribute": "P4",
+      "touch_point": "Task Priority"
+    },
+    "106": {
+      "value": [
+        "Client to check and confirm group life insurance coverage and whether any personal accident or critical illness cover exists.",
+        "Client to upload consolidated account statement to Google Drive folder.",
+        "Advisor to analyze mutual fund portfolio and direct equities.",
+        "Advisor to prepare and present financial plan in 3-4 days.",
+        "Client to check if consolidated account statement received via email.",
+        "Advisor to generate consolidated account statement for mutual funds.",
+        "Advisor to allocate 7 lakh rupees towards emergency reserve.",
+        "Advisor to recommend elimination of three mutual funds from portfolio.",
+        "Advisor to provide populated version of investment analysis.",
+        "Client to confirm if sabbatical option is available at organization."
+      ],
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Explicit commitments and assigned tasks throughout both transcripts.",
+      "agent": "FeedbackAgent",
+      "attribute": "Action Items",
+      "touch_point": "Custom Fields (text)"
+    },
+    "107": {
+      "value": [
+        "Client unsure about group life insurance and personal accident/critical illness cover; needs to check and confirm.",
+        "Client unsure about sabbatical policy at organization.",
+        "Client unsure about precise marriage expenses and timeline.",
+        "Client unsure about future education plans and exact funding requirements."
+      ],
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client expresses uncertainty or requests to revisit topics later.",
+      "agent": "FeedbackAgent",
+      "attribute": "Open Queries",
+      "touch_point": "Custom Fields (text)"
+    },
+    "108": {
+      "value": {
+        "level": "M",
+        "text": "Client has multiple ambiguous goals (retirement, career break, education, car, international travel), unstructured investments, and requires consolidation and planning. No dependents, but family property and possible future education abroad add complexity."
+      },
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client's lack of structure, multiple goals, and need for consolidation; advisor's detailed planning required.",
+      "agent": "FeedbackAgent",
+      "attribute": "Case Complexity (H/M/L) + Custom text",
+      "touch_point": "Custom Fields (text)"
+    },
+    "109": {
+      "value": "Client requests to provision for a possible career break and to increase emergency reserve to cover 8 months instead of 6. Also wants to keep option open for future education and possible job abroad.",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client requests: 'let's push it to at least eight months', 'I want to have some scope for education if I want to open up the possibility of jobs abroad...'",
+      "agent": "FeedbackAgent",
+      "attribute": "Special Request",
+      "touch_point": "Custom Fields (text)"
+    },
+    "110": {
+      "value": "Client is single, no dependents, parents financially independent, property in Howrah (family decision for liquidation), history of gut issues (IBS), and family history of glaucoma, fatty liver, and heart issues (under control).",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Personal and family details, health, property, and financial independence discussed in transcript.",
+      "agent": "FeedbackAgent",
+      "attribute": "Special Information",
+      "touch_point": "Custom Fields (text)"
+    },
+    "111": {
+      "value": "Client prefers to communicate additional information via email to Turtle team, but is open to calls as well.",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "'you can drop in at any point of time, drop in an email to the Turtle team and they will cascade the information.'",
+      "agent": "FeedbackAgent",
+      "attribute": "Special Instructions",
+      "touch_point": "Custom Fields (text)"
+    },
+    "112": {
+      "value": [
+        "Data gathering: personal, family, employment, cash flows, expenses, assets, liabilities.",
+        "Clarify and structure financial goals (retirement, career break, education, car, travel, emergency reserve).",
+        "Analyze current investments and risk management.",
+        "Prepare comprehensive financial plan."
+      ],
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Advisor's outline at start of first call and throughout.",
+      "agent": "FeedbackAgent",
+      "attribute": "Consultation Agenda",
+      "touch_point": "Custom Fields (text)"
+    },
+    "113": {
+      "value": "Client is cooperative, open, and expresses relief at having structure and guidance. Some anxiety about unstructured finances, but overall positive and engaged.",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client's statements about anxiety, desire for structure, and positive engagement with advisor.",
+      "agent": "FeedbackAgent",
+      "attribute": "Sentiment Analysis",
+      "touch_point": "Custom Fields (text)"
+    },
+    "114": {
+      "value": "Client expresses trust and willingness to follow advisor's recommendations, especially regarding investment structure and fund selection.",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "'I would look towards your advice when it comes to actually purchasing it and how to go about it.'",
+      "agent": "FeedbackAgent",
+      "attribute": "Client's feedback on Financial Planner",
+      "touch_point": "Custom Fields (text)"
+    },
+    "115": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Client's feedback on Tax Advisor",
+      "touch_point": "Custom Fields (text)"
+    },
+    "116": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Client's feedback on Estate Planner",
+      "touch_point": "Custom Fields (text)"
+    },
+    "117": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Client's feedback on Banking & Compliance Advisor",
+      "touch_point": "Custom Fields (text)"
+    },
+    "118": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Client's feedback on Insurance Advisor",
+      "touch_point": "Custom Fields (text)"
+    },
+    "119": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Client's feedback on Credit Card Advisor",
+      "touch_point": "Custom Fields (text)"
+    },
+    "120": {
+      "value": "Client is open, honest about lack of structure, and willing to provide information and follow up on tasks. Needs significant guidance and consolidation.",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Advisor's repeated need to clarify, structure, and consolidate client's information and investments.",
+      "agent": "FeedbackAgent",
+      "attribute": "Financial Planner's feedback on Client",
+      "touch_point": "Custom Fields (text)"
+    },
+    "121": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Tax Advisor's feedback on Client",
+      "touch_point": "Custom Fields (text)"
+    },
+    "122": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Estate Planner's feedback on Client",
+      "touch_point": "Custom Fields (text)"
+    },
+    "123": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Insurance Advisor's feedback on Client",
+      "touch_point": "Custom Fields (text)"
+    },
+    "124": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Banking & Compliance Advisor's feedback on Client",
+      "touch_point": "Custom Fields (text)"
+    },
+    "125": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Credit Card Advisor's feedback on Client",
+      "touch_point": "Custom Fields (text)"
+    },
+    "126": {
+      "value": [
+        "Client has significant surplus income and is willing to structure investments.",
+        "Client is proactive in providing information and open to guidance."
+      ],
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client's surplus and willingness to follow advisor's plan.",
+      "agent": "FeedbackAgent",
+      "attribute": "Wins",
+      "touch_point": "Custom Fields (text)"
+    },
+    "127": {
+      "value": [
+        "Unstructured and fragmented investments.",
+        "Ambiguous and evolving financial goals.",
+        "No personal insurance outside corporate coverage.",
+        "Lack of clarity on group insurance and critical illness cover.",
+        "No clear plan for future education or career break funding."
+      ],
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Advisor's repeated need to clarify, client's admissions of ambiguity.",
+      "agent": "FeedbackAgent",
+      "attribute": "Gaps",
+      "touch_point": "Custom Fields (text)"
+    },
+    "128": {
+      "value": [
+        "Advisor suggests consolidating mutual funds and eliminating low-quality/sectoral funds.",
+        "Advisor recommends using arbitrage funds for emergency reserve and short-term goals.",
+        "Advisor recommends step-up SIP approach for long-term wealth accumulation.",
+        "Advisor recommends not investing directly in equities, but through mutual funds."
+      ],
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Advisor's explicit recommendations throughout transcript.",
+      "agent": "FeedbackAgent",
+      "attribute": "Suggestions",
+      "touch_point": "Custom Fields (text)"
+    },
+    "129": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "PAN (Self)",
+      "touch_point": "Attachments (PDFs)"
+    },
+    "130": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Aadhaar (Self)",
+      "touch_point": "Attachments (PDFs)"
+    },
+    "131": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "PAN (Spouse)",
+      "touch_point": "Attachments (PDFs)"
+    },
+    "132": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Aadhaar (Spouse)",
+      "touch_point": "Attachments (PDFs)"
+    },
+    "133": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "PAN (Other)",
+      "touch_point": "Attachments (PDFs)"
+    },
+    "134": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Aadhaar (Other)",
+      "touch_point": "Attachments (PDFs)"
+    },
+    "135": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Insurance Policies",
+      "touch_point": "Attachments (PDFs)"
+    },
+    "136": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Previous Indian Income Tax Return",
+      "touch_point": "Attachments (PDFs)"
+    },
+    "137": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Previous Foreign Income Tax Return",
+      "touch_point": "Attachments (PDFs)"
+    },
+    "138": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "e-CAS",
+      "touch_point": "Attachments (PDFs)"
+    },
+    "139": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Holding Statement",
+      "touch_point": "Attachments (PDFs)"
+    },
+    "140": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "ESOPs/RSUs Letter",
+      "touch_point": "Attachments (PDFs)"
+    },
+    "141": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Payslip(s)",
+      "touch_point": "Attachments (PDFs)"
+    },
+    "142": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Other (Doc. name)",
+      "touch_point": "Attachments (PDFs)"
+    },
+    "143": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Deliverables (Financial Plan, Tax Plan etc.)",
+      "touch_point": "Attachments (PDFs)"
+    },
+    "144": {
+      "value": "H",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client is actively seeking comprehensive financial planning, has multiple goals, and is engaging in detailed discussions with the advisor.",
+      "agent": "QualitativeAgent",
+      "attribute": "Turtle Relevance (H/M/L)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "145": {
+      "value": "Optimistic",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client expresses desire to plan for future, early retirement, skill upgradation, and is open to advisor's suggestions. No negative or critical tone.",
+      "agent": "QualitativeAgent",
+      "attribute": "Prospect's Attitude (Optimistic/Pessimistic/Critical)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "146": {
+      "value": "L",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client: 'the whole planning process has been very overwhelming for me and especially with investing, I don't have any idea what to do.'",
+      "agent": "QualitativeAgent",
+      "attribute": "Prospect's Financial Acumen (H/M/L)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "147": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Prospect's Financial Background (Y/N)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "148": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Prospect's Price Sensitivity (Y/N)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "149": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Introvert/Extrovert",
+      "touch_point": "Qualitative Parameters"
+    },
+    "150": {
+      "value": "Moderate",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client is open to equity, mutual funds, and arbitrage funds, but is also cautious (wants higher emergency reserve, not aggressive in investing, avoids sectoral/thematic funds).",
+      "agent": "QualitativeAgent",
+      "attribute": "RPA (Aggresive/Moderate/Conservative)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "151": {
+      "value": "Retirement planning, Emergency reserve, Car purchase, International vacation, Skill upgradation, Education, Career break",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client discusses these as explicit goals and areas of interest throughout the transcript.",
+      "agent": "QualitativeAgent",
+      "attribute": "Areas of Interest (Custom tags - PF)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "152": {
+      "value": "Distrusts online advice, Prefers not to follow YouTube/portals, Experimental approach",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client: 'I find it very hard to put trust in like any online or say YouTube like that. So it's mostly been very experimental for me personally.'",
+      "agent": "QualitativeAgent",
+      "attribute": "Financial Biases (Custom tags)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "153": {
+      "value": "Explorer, Unstructured, Long term planning intent",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client: 'all of my so far investments have been very random or not focused towards anything specific or with any plan.' and 'it was more of just exploratory just trying something more.'",
+      "agent": "QualitativeAgent",
+      "attribute": "Investing Style (Custom tags - Long term investor, Return seeker, Explorer etc.)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "154": {
+      "value": "Exploring hobbies, International travel, Learning new skills",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client: 'Other things could be just going a bit more into depth with hobbies and just seeing, exploring them.' and 'International vacations, Yes. I would say around 3 to 4 lakhs per year.'",
+      "agent": "QualitativeAgent",
+      "attribute": "Likes",
+      "touch_point": "Qualitative Parameters"
+    },
+    "155": {
+      "value": "Ambiguity in financial planning, Overwhelming investment process, Online/YouTube advice",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client: 'the whole planning process has been very overwhelming for me', 'I find it very hard to put trust in like any online or say YouTube like that.'",
+      "agent": "QualitativeAgent",
+      "attribute": "Dislikes",
+      "touch_point": "Qualitative Parameters"
+    },
+    "156": {
+      "value": "M",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client uses Google Pay, ClearTax, Google Drive, and email, but asks for clarification on basic tech tasks (e.g., uploading, opening statements).",
+      "agent": "QualitativeAgent",
+      "attribute": "Tech Saviness (H/M/L)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "157": {
+      "value": "M",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client is able to gather documents, follow instructions, but expresses confusion and lack of structure in investments, and needs advisor's help for execution.",
+      "agent": "QualitativeAgent",
+      "attribute": "Execution Capability (H/M/L)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "158": {
+      "value": "Cautious, Seeks guidance, Open to advice, Anxious about finances, Willing to learn",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client: 'I see that the whole planning process has been very overwhelming for me', 'I just wanted to start early with some sort of guidance', 'that anxiety is always there', 'I would look towards your advice when it comes to actually purchasing it and how to go about it.'",
+      "agent": "QualitativeAgent",
+      "attribute": "Behavioural Traits (Custom tags - Proactive, Diligent, Privacy freak)",
+      "touch_point": "Qualitative Parameters"
+    },
+    "159": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "ITR Filing (Spouse, Parents etc.)",
+      "touch_point": "Special Projects/VAS (opted)"
+    },
+    "160": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Rental TDS",
+      "touch_point": "Special Projects/VAS (opted)"
+    },
+    "161": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "GST services",
+      "touch_point": "Special Projects/VAS (opted)"
+    },
+    "162": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Remittance",
+      "touch_point": "Special Projects/VAS (opted)"
+    },
+    "163": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Custom Services",
+      "touch_point": "Special Projects/VAS (opted)"
+    },
+    "164": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Advisor Name",
+      "touch_point": "Advisor"
+    },
+    "165": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Advisor Phone",
+      "touch_point": "Advisor"
+    },
+    "166": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Advisor Email id",
+      "touch_point": "Advisor"
+    },
+    "167": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Advisor's Qualification",
+      "touch_point": "Advisor"
+    },
+    "168": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Advisor's Experience",
+      "touch_point": "Advisor"
+    },
+    "169": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Advance Tax",
+      "touch_point": "Campaign (opted)"
+    },
+    "170": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "India Tax Filing status for {{FY}}",
+      "touch_point": "Campaign (opted)"
+    },
+    "171": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "US Tax Filing status for {{Year}}",
+      "touch_point": "Campaign (opted)"
+    },
+    "172": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "W8-BEN",
+      "touch_point": "Campaign (opted)"
+    },
+    "173": {
+      "value": "2026-04-25T21:40:37.489017",
+      "confidence": 1.0,
+      "confidence_level": "exact_quote",
+      "source": "System",
+      "agent": "SystemResolver",
+      "attribute": "Last touchpoint date",
+      "touch_point": "Engagement"
+    },
+    "174": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Last touchpoint agenda",
+      "touch_point": "Engagement"
+    }
+  }
+}

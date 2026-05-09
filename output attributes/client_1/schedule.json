@@ -1,0 +1,38 @@
+{
+  "client_id": "client_1",
+  "provider": "openai",
+  "model": "gpt-5.4",
+  "extracted_at": "2026-05-09T21:20:00.000000",
+  "duration_seconds": 88.42,
+  "agent": "schedule",
+  "total_fields": 3,
+  "fields": {
+    "98": {
+      "value": "Weekdays, 8:00 PM to 9:30 PM, IST",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client prefers post-dinner time on weekdays.",
+      "agent": "ScheduleAgent",
+      "attribute": "Client's Availability (Weekday, Time, Timezone)",
+      "touch_point": "Schedule & Communication"
+    },
+    "99": {
+      "value": "Friday, 6:00 PM to 8:00 PM, IST",
+      "confidence": 0.6,
+      "confidence_level": "estimated",
+      "source": "Advisor suggested a Friday review slot and client agreed.",
+      "agent": "ScheduleAgent",
+      "attribute": "Advisor's Availability (Weekday, Time, Timezone)",
+      "touch_point": "Schedule & Communication"
+    },
+    "100": {
+      "value": "WhatsApp, Email",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client prefers WhatsApp for quick updates and email for documents.",
+      "agent": "ScheduleAgent",
+      "attribute": "Preferred mode of communication (Email/WA/Call)",
+      "touch_point": "Schedule & Communication"
+    }
+  }
+}

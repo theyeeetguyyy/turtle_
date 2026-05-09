@@ -1,0 +1,38 @@
+{
+  "client_id": "client_2",
+  "provider": "openai",
+  "model": "gpt-5.4",
+  "extracted_at": "2026-04-25T21:42:54.395398",
+  "duration_seconds": 93.87,
+  "agent": "schedule",
+  "total_fields": 3,
+  "fields": {
+    "98": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Client's Availability (Weekday, Time, Timezone)",
+      "touch_point": "Schedule & Communication"
+    },
+    "99": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Advisor's Availability (Weekday, Time, Timezone)",
+      "touch_point": "Schedule & Communication"
+    },
+    "100": {
+      "value": "Email, Call",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Advisor: \"drop in an email to the Turtle team\" and \"they are going to schedule a call with me\"; Client also asks whether to share \"over calls\".",
+      "agent": "ScheduleAgent",
+      "attribute": "Preferred mode of communication (Email/WA/Call)",
+      "touch_point": "Schedule & Communication"
+    }
+  }
+}

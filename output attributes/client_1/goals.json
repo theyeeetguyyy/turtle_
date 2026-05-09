@@ -1,0 +1,60 @@
+{
+  "client_id": "client_1",
+  "provider": "openai",
+  "model": "gpt-5.4",
+  "extracted_at": "2026-05-09T21:20:00.000000",
+  "duration_seconds": 88.42,
+  "agent": "goals",
+  "total_fields": 5,
+  "fields": {
+    "79": {
+      "value": "Second child planning in 2-3 years",
+      "confidence": 0.8,
+      "confidence_level": "clearly_inferable",
+      "source": "Client and spouse are discussing family expansion timeline.",
+      "agent": "GoalsAgent",
+      "attribute": "Family Planning",
+      "touch_point": "Life Goals (with Priorities)"
+    },
+    "80": {
+      "value": "Upgrade to a larger apartment in 4 years",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client explicitly mentions a house upgrade goal.",
+      "agent": "GoalsAgent",
+      "attribute": "Buying a house",
+      "touch_point": "Life Goals (with Priorities)"
+    },
+    "81": {
+      "value": "Start dedicated education corpus for daughter",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client wants a separate child education fund.",
+      "agent": "GoalsAgent",
+      "attribute": "Kids Education",
+      "touch_point": "Life Goals (with Priorities)"
+    },
+    "82": {
+      "value": "Retirement at age 50 with optional consulting work",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "Client says he wants financial independence by 50.",
+      "agent": "GoalsAgent",
+      "attribute": "Retirement Planning",
+      "touch_point": "Life Goals (with Priorities)"
+    },
+    "83": {
+      "value": [
+        "Build a 12-month emergency reserve",
+        "International family vacation every 18 months",
+        "Create a 5-year entrepreneurship option fund"
+      ],
+      "confidence": 0.75,
+      "confidence_level": "estimated",
+      "source": "Derived from the client's stated priorities and timeline discussion.",
+      "agent": "GoalsAgent",
+      "attribute": "Custom Goals",
+      "touch_point": "Life Goals (with Priorities)"
+    }
+  }
+}

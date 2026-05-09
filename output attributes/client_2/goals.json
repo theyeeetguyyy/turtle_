@@ -1,0 +1,62 @@
+{
+  "client_id": "client_2",
+  "provider": "openai",
+  "model": "gpt-5.4",
+  "extracted_at": "2026-04-25T21:42:54.395398",
+  "duration_seconds": 93.87,
+  "agent": "goals",
+  "total_fields": 5,
+  "fields": {
+    "79": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Family Planning",
+      "touch_point": "Life Goals (with Priorities)"
+    },
+    "80": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Buying a house",
+      "touch_point": "Life Goals (with Priorities)"
+    },
+    "81": {
+      "value": null,
+      "confidence": 0.0,
+      "confidence_level": "not_extracted",
+      "source": "",
+      "agent": null,
+      "attribute": "Kids Education",
+      "touch_point": "Life Goals (with Priorities)"
+    },
+    "82": {
+      "value": "Financial freedom / retirement at age 45",
+      "confidence": 0.95,
+      "confidence_level": "exact_quote",
+      "source": "On retirement age, client first said \"50. 55 is fair\" and then corrected it: \"I think let's make it 45 there.\"",
+      "agent": "GoalsAgent",
+      "attribute": "Retirement Planning",
+      "touch_point": "Life Goals (with Priorities)"
+    },
+    "83": {
+      "value": [
+        "Build a corpus for possible further education / career move in about 4 years (client wants to save around 20–30 lakh, with rest possibly via parents or education loan)",
+        "Car purchase in about 2 years (around 10 lakh budget, likely via loan with about 3 lakh down payment)",
+        "International vacations of about 3–4 lakh per year",
+        "Intentional career break / sabbatical for one quarter, not before Q3 2026",
+        "Possible post-retirement goal of starting a business"
+      ],
+      "confidence": 0.6,
+      "confidence_level": "estimated",
+      "source": "Client mentioned wanting a corpus \"in case I need to go for some further education\"; later set timeline \"Say four years\" and amount \"20 to 30\". Also said, \"Maybe we can look at a car purchase in like say two years... around 10,\" \"International vacations... around 3 to 4 lakhs per year,\" \"a short career break... Say one quarter... not before Q3, 2026,\" and after retirement, \"starting a business could be one.\"",
+      "agent": "GoalsAgent",
+      "attribute": "Custom Goals",
+      "touch_point": "Life Goals (with Priorities)"
+    }
+  }
+}
